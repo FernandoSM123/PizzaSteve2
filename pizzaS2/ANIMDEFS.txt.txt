@@ -1,0 +1,234 @@
+/*
+**********
+1-Flats
+**********
+*/
+
+flat	PsGiF01  	range	PsGiF03   	tics 8
+flat	PsGiF04  	range	PsGiF07   	tics 8
+flat	PsGiF08  	range	PsGiF11   	tics 8
+flat	PsGiF12  	range	PsGiF15   	tics 8
+flat	PsGiF16  	range	PsGiF19   	tics 8
+flat	PsGiF20  	range	PsGiF25   	tics 16 //Lights
+flat	PsGiF26  	range	PsGiF28   	tics 8
+flat	PsGiF29  	range	PsGiF31   	tics 8
+flat	PsGiF29  	range	PsGiF31   	tics 8
+flat	PsGiF32  	range	PsGiF34   	tics 8
+flat	PsGiF35  	range	PsGiF38   	tics 8
+
+/*
+**********
+2-Textures
+**********
+*/
+
+texture	PsGiW001  	range	PsGiW004  	tics 8
+texture	PsGiW005  	range	PsGiW012  	tics 4 //Computer1
+
+//Computer2
+texture PsGiW013
+    pic PsGiW013 tics 32
+	pic PsGiW014 tics 4
+	pic PsGiW015 tics 4
+	pic PsGiW016 tics 4
+	pic PsGiW017 tics 4
+	pic PsGiW018 tics 4
+	pic PsGiW019 tics 4
+	pic PsGiW020 tics 4
+	
+texture	PsGiW021  	range	PsGiW032  	tics 8
+texture	PsGiW033  	range	PsGiW041  	tics 8
+texture	PsGiW042  	range	PsGiW050  	tics 8
+texture	PsGiW051  	range	PsGiW059  	tics 8
+texture	PsGiW060  	range	PsGiW068  	tics 8
+texture	PsGiW069  	range	PsGiW077  	tics 8
+texture	PsGiW078  	range	PsGiW081  	tics 8
+texture	PsGiW082 	range	PsGiW090  	tics 8
+texture	PsGiW091 	range	PsGiW098  	tics 8 //Flesh1
+texture	PsGiW100 	range	PsGiW108  	tics 8
+texture	PsGiW109 	range	PsGiW116  	tics 8 //Flesh2
+texture	PsGiW118 	range	PsGiW125  	tics 8 //Hell1
+texture	PsGiW126 	range	PsGiW128  	tics 8 //Hell2
+texture	PsGiW129 	range	PsGiW132  	tics 16 //wallMouth1
+texture	PsGiW133 	range	PsGiW135  	tics 16 //wallMouth2
+texture	PsGiW136 	range	PsGiW139  	tics 8
+texture	PsGiW140 	range	PsGiW143  	tics 8
+texture	PsGiW144 	range	PsGiW148  	tics 16 //Computer3
+texture	PsGiW149 	range	PsGiW156  	tics 8
+texture	PsGiW157 	range	PsGiW164  	tics 8
+texture	PsGiW165 	range	PsGiW168  	tics 8
+texture	PsGiW169 	range	PsGiW171  	tics 8
+texture	PsGiW172 	range	PsGiW175  	tics 4 //Computer4
+texture	PsGiW176 	range	PsGiW185  	tics 4 //ForceField1
+texture	PsGiW186 	range	PsGiW195  	tics 4 //ForceField2
+texture	PsGiW196 	range	PsGiW199  	tics 8
+texture	PsGiW200 	range	PsGiW202  	tics 4 //Computer5
+texture	PsGiW203 	range	PsGiW206  	tics 8
+texture	PsGiW207 	range	PsGiW209  	tics 8
+texture	PsGiW210 	range	PsGiW213  	tics 8
+texture	PsGiW214 	range	PsGiW217  	tics 8
+
+/*
+**********
+3-Switches
+**********
+*/
+
+switch PsSw01 on sound Switch1 pic PsSw02 tics 0
+switch PsSw02 off sound Switch2 pic PsSw01 tics 0
+
+switch PsSw03 on sound Switch1 pic PsSw04 tics 0
+switch PsSw04 off sound Switch2 pic PsSw03 tics 0
+
+switch PsSw05 on sound Switch1 pic PsSw06 tics 0
+switch PsSw06 off sound Switch2 pic PsSw05 tics 0
+
+switch PsSw07 on sound Switch1 pic PsSw08 tics 0
+switch PsSw08 off sound Switch2 pic PsSw07 tics 0
+
+switch PsSw09 on sound Switch1 pic PsSw10 tics 0
+switch PsSw10 off sound Switch2 pic PsSw09 tics 0
+
+switch PsSw11 on sound Switch1 pic PsSw12 tics 0
+switch PsSw12 off sound Switch2 pic PsSw11 tics 0
+
+switch PsSw13 on sound Switch1 pic PsSw14 tics 0
+switch PsSw14 off sound Switch2 pic PsSw13 tics 0
+
+switch PsSw15 on sound Switch1 pic PsSw16 tics 0
+switch PsSw16 off sound Switch2 pic PsSw15 tics 0
+
+switch PsSw17 on sound Switch1 pic PsSw18 tics 0
+switch PsSw18 off sound Switch2 pic PsSw17 tics 0
+
+switch PsSw19 on sound Switch1 pic PsSw20 tics 0
+switch PsSw20 off sound Switch2 pic PsSw19 tics 0
+
+switch PsSw21 on sound Switch1 pic PsSw22 tics 0
+switch PsSw22 off sound Switch2 pic PsSw21 tics 0
+
+switch PsSw23 on sound Switch1 pic PsSw24 tics 0
+switch PsSw24 off sound Switch2 pic PsSw23 tics 0
+
+switch PsSw25 on sound Switch1 pic PsSw26 tics 0
+switch PsSw26 off sound Switch2 pic PsSw25 tics 0
+
+switch PsSw27 on sound Switch1 pic PsSw28 tics 0
+switch PsSw28 off sound Switch2 pic PsSw27 tics 0
+
+switch PsSw29 on sound Switch1 pic PsSw30 tics 0
+switch PsSw30 off sound Switch2 pic PsSw29 tics 0
+
+switch PsSw31 on sound Switch1 pic PsSw32 tics 0
+switch PsSw32 off sound Switch2 pic PsSw31 tics 0
+
+switch PsSw33 on sound Switch1 pic PsSw34 tics 0
+switch PsSw34 off sound Switch2 pic PsSw33 tics 0
+
+switch PsSw35 on sound Switch1 pic PsSw36 tics 0
+switch PsSw36 off sound Switch2 pic PsSw35 tics 0
+
+switch PsSw37 on sound Switch1 pic PsSw38 tics 0
+switch PsSw38 off sound Switch2 pic PsSw37 tics 0
+
+switch PsSw39 on sound Switch1 pic PsSw40 tics 0
+switch PsSw40 off sound Switch2 pic PsSw39 tics 0
+
+//EyeSwitch
+switch doom PsSw41
+on sound Switch1 
+pic PsSw41 tics 8 
+pic PsSw42 tics 8 
+pic PsSw43 tics 8
+pic PsSw44 tics 8
+
+off sound Switch2 
+pic PsSw44 tics 8 
+pic PsSw43 tics 8 
+pic PsSw42 tics 8
+pic PsSw41 tics 8
+
+switch PsSw45 on sound Switch1 pic PsSw46 tics 0
+switch PsSw46 off sound Switch2 pic PsSw45 tics 0
+
+switch PsSw47 on sound Switch1 pic PsSw48 tics 0
+switch PsSw48 off sound Switch2 pic PsSw47 tics 0
+
+switch PsSw49 on sound Switch1 pic PsSw50 tics 0
+switch PsSw50 off sound Switch2 pic PsSw49 tics 0
+
+switch PsSw51 on sound Switch1 pic PsSw52 tics 0
+switch PsSw52 off sound Switch2 pic PsSw51 tics 0
+
+switch PsSw53 on sound Switch1 pic PsSw54 tics 0
+switch PsSw54 off sound Switch2 pic PsSw53 tics 0
+
+switch PsSw55 on sound Switch1 pic PsSw56 tics 0
+switch PsSw56 off sound Switch2 pic PsSw55 tics 0
+
+switch PsSw57 on sound Switch1 pic PsSw58 tics 0
+switch PsSw58 off sound Switch2 pic PsSw57 tics 0
+
+switch PsSw59 on sound Switch1 pic PsSw60 tics 0
+switch PsSw60 off sound Switch2 pic PsSw59 tics 0
+
+switch PsSw61 on sound Switch1 pic PsSw62 tics 0
+switch PsSw62 off sound Switch2 pic PsSw61 tics 0
+
+switch PsSw63 on sound Switch1 pic PsSw64 tics 0
+switch PsSw64 off sound Switch2 pic PsSw63 tics 0
+
+switch PsSw65 on sound Switch1 pic PsSw66 tics 0
+switch PsSw66 off sound Switch2 pic PsSw65 tics 0
+
+switch PsSw67 on sound Switch1 pic PsSw68 tics 0
+switch PsSw68 off sound Switch2 pic PsSw67 tics 0
+
+switch PsSw69 on sound Switch1 pic PsSw70 tics 0
+switch PsSw70 off sound Switch2 pic PsSw71 tics 0
+
+switch PsSw71 on sound Switch1 pic PsSw72 tics 0
+switch PsSw72 off sound Switch2 pic PsSw71 tics 0
+
+switch PsSw73 on sound Switch1 pic PsSw74 tics 0
+switch PsSw74 off sound Switch2 pic PsSw73 tics 0
+
+switch PsSw75 on sound Switch1 pic PsSw76 tics 0
+switch PsSw76 off sound Switch2 pic PsSw75 tics 0
+
+switch PsSw77 on sound Switch1 pic PsSw78 tics 0
+switch PsSw78 off sound Switch2 pic PsSw77 tics 0
+
+switch PsSw79 on sound Switch1 pic PsSw80 tics 0
+switch PsSw80 off sound Switch2 pic PsSw79 tics 0
+
+switch PsSw81 on sound Switch1 pic PsSw82 tics 0
+switch PsSw82 off sound Switch2 pic PsSw81 tics 0
+
+//ClockSwitch
+switch doom PsSw83
+on sound Switch1 
+pic PsSw83 tics 8 
+pic PsSw84 tics 8 
+pic PsSw85 tics 8
+pic PsSw86 tics 8
+
+off sound Switch2 
+pic PsSw86 tics 8 
+pic PsSw85 tics 8 
+pic PsSw84 tics 8
+pic PsSw83 tics 8
+
+//BarsSwitch
+switch doom PsSw87
+on sound Switch1 
+pic PsSw87 tics 8 
+pic PsSw88 tics 8 
+pic PsSw89 tics 8
+pic PsSw90 tics 8
+
+off sound Switch2 
+pic PsSw90 tics 8 
+pic PsSw89 tics 8 
+pic PsSw88 tics 8
+pic PsSw87 tics 8
