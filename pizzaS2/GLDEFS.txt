@@ -1,0 +1,9 @@
+skybox Miramar
+{
+MIRAM_BK
+MIRAM_RT
+MIRAM_FT
+MIRAM_LF
+MIRAM_UP
+MIRAM_DN
+}

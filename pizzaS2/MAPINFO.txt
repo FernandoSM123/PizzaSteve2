@@ -1,0 +1,9 @@
+episode PIZ201{
+name = "Pizza Steve 2"
+}
+
+map PIZ201 "Research Lab"{
+    	music = "D_E1M2"
+	sky1 = "Miramar"
+	next = "MAP02"
+	}
