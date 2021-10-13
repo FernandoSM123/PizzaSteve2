@@ -5,5 +5,11 @@ name = "Pizza Steve 2"
 map PIZ201 "Research Lab"{
     	music = "D_E1M2"
 	sky1 = "Miramar"
-	next = "MAP02"
+	next = "PIZ202"
+	}
+
+map PIZ202 "Dark Outpost"{
+    	music = "D_E1M5"
+	sky1 = "GreenClouds"
+	next = "MAP03"
 	}
