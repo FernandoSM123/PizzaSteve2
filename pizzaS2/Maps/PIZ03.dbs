@@ -1,0 +1,249 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP02
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\doom wads\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\pizzaSteve2\\pizzaS2";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "PSLIF029";
+		defaultceiltexture = "PSLIF029";
+		defaulttoptexture = "PSOTW125";
+		defaultwalltexture = "PSOTW125";
+		defaultbottomtexture = "PSOTW125";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = -45.66312f;
+		viewpositiony = 319.2022f;
+		viewscale = 0.3110627f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 8f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
+		}
+		
+		fieldtypes
+		{
+			
+			linedef
+			{
+				alpha = 1;
+				renderstyle = 2;
+				arg0str = 2;
+			}
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsety_top = 1;
+			}
+			
+			sector
+			{
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 1;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				rotationfloor = 1;
+				xscalefloor = 1;
+				yscalefloor = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 224;
+				activetab = true;
+			}
+		}
+	}
+	
+	MAP03
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\doom wads\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\pizzaSteve2\\pizzaS2";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "PSLIF029";
+		defaultceiltexture = "PSLIF029";
+		defaulttoptexture = "PSOTW125";
+		defaultwalltexture = "PSOTW125";
+		defaultbottomtexture = "PSOTW125";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = 642.6031f;
+		viewpositiony = 3608.615f;
+		viewscale = 0.404378f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 8f;
+			gridrotate = 0f;
+			gridoriginx = 0f;
+			gridoriginy = 0f;
+		}
+		
+		fieldtypes
+		{
+			
+			linedef
+			{
+				alpha = 1;
+				renderstyle = 2;
+				arg0str = 2;
+			}
+			
+			sidedef
+			{
+				offsetx_mid = 1;
+				offsety_mid = 1;
+				offsetx_top = 1;
+				offsetx_bottom = 1;
+				offsety_bottom = 1;
+				offsety_top = 1;
+			}
+			
+			sector
+			{
+				xpanningfloor = 1;
+				ypanningfloor = 1;
+				xpanningceiling = 1;
+				ypanningceiling = 1;
+				rotationceiling = 17;
+				xscaleceiling = 1;
+				yscaleceiling = 1;
+				rotationfloor = 17;
+				xscalefloor = 1;
+				yscalefloor = 1;
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 224;
+				activetab = true;
+			}
+		}
+	}
+}
