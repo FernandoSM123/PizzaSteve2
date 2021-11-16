@@ -4,3 +4,4 @@
 
 PIZ201 - "Research Lab"
 PIZ202 - "Dark Outpost"
+PIZ203 - "Excavation Site"
