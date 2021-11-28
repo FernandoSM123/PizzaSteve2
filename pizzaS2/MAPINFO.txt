@@ -11,5 +11,10 @@ map PIZ201 "Research Lab"{
 map PIZ202 "Dark Outpost"{
     	music = "D_E1M5"
 	sky1 = "GreenClouds"
-	next = "MAP03"
+	next = "PIZ203"
+	}
+
+map PIZ203 "Excavation Site"{
+    	music = "D_E1M4"
+	next = "MAP04"
 	}
