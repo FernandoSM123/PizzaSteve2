@@ -35,7 +35,7 @@ maps
 			}
 		}
 		overrideceiltexture = false;
-		viewpositionx = -2169.2f;
+		viewpositionx = 222.4794f;
 		defaulttoptexture = "PSSIW113";
 		overrideceilheight = false;
 		useresourcesinreadonlymode = false;
@@ -58,13 +58,13 @@ maps
 		overridebottomtexture = false;
 		defaultbottomtexture = "PSSIW113";
 		defaultfloortexture = "FLAT14";
-		viewpositiony = 2334.377f;
+		viewpositiony = 932.9284f;
 		defaultwalltexture = "PSSIW113";
 		overridetoptexture = false;
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 0.590623f;
+		viewscale = 1.297598f;
 		
 		fieldtypes
 		{
