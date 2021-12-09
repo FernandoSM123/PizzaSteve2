@@ -31,9 +31,9 @@ maps
 		}
 		defaultfloortexture = "PSLIF029";
 		defaultceiltexture = "PSLIF029";
-		defaulttoptexture = "PSSIW027";
-		defaultwalltexture = "PSSIW027";
-		defaultbottomtexture = "PSSIW027";
+		defaulttoptexture = "PSOTW125";
+		defaultwalltexture = "PSOTW125";
+		defaultbottomtexture = "PSOTW125";
 		custombrightness = 196;
 		customfloorheight = 0;
 		customceilheight = 128;
@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -45.66312f;
-		viewpositiony = 319.2022f;
-		viewscale = 0.3110627f;
+		viewpositionx = -754.7681f;
+		viewpositiony = 594.0852f;
+		viewscale = 0.6834041f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -71,8 +71,8 @@ maps
 			
 			linedef
 			{
-				alpha = 1;
 				renderstyle = 2;
+				alpha = 1;
 				arg0str = 2;
 			}
 			
@@ -120,7 +120,7 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 224;
+				caretposition = 248;
 				activetab = true;
 			}
 		}
