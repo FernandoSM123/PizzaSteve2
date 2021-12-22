@@ -67,7 +67,7 @@ texture	PsGiW203 	range	PsGiW206  	tics 8
 texture	PsGiW207 	range	PsGiW209  	tics 8
 texture	PsGiW210 	range	PsGiW213  	tics 8
 texture	PsGiW214 	range	PsGiW217  	tics 8
-texture PsGiW218 	range	PsGiW224  	tics 16 //Fan
+texture PsGiW218 	range	PsGiW224  	tics 2 //Fan
 
 /*
 **********
