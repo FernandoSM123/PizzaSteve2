@@ -16,5 +16,11 @@ map PIZ202 "Dark Outpost"{
 
 map PIZ203 "Excavation Site"{
     	music = "D_E1M4"
-	next = "MAP04"
+	next = "PIZ204"
+	}
+
+map PIZ204 "Nuclear Plant"{
+    	music = "D_E1M3"
+	sky1 = "Miramar"
+	next = "MAP05"
 	}
