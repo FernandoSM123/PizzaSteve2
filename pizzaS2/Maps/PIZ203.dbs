@@ -35,7 +35,7 @@ maps
 			}
 		}
 		overrideceiltexture = false;
-		viewpositionx = 1894.221f;
+		viewpositionx = -230.3859f;
 		defaulttoptexture = "PSOTW125";
 		overrideceilheight = false;
 		useresourcesinreadonlymode = false;
@@ -46,12 +46,12 @@ maps
 		{
 			backoffsetx = 0;
 			backsource = 0;
-			gridoriginy = 0f;
+			gridoriginy = 0;
 			backscaley = 100;
-			gridrotate = 0f;
+			gridrotate = 0;
 			backscalex = 100;
-			gridoriginx = 0f;
-			gridsize = 32f;
+			gridoriginx = 0;
+			gridsize = 4;
 			background = "";
 			backoffsety = 0;
 		}
@@ -59,46 +59,39 @@ maps
 		overridebottomtexture = false;
 		defaultbottomtexture = "PSOTW125";
 		defaultfloortexture = "PSLIF029";
-		viewpositiony = 4073.741f;
+		viewpositiony = 687.7582f;
 		defaultwalltexture = "PSOTW125";
 		customceilheight = 128;
 		overridemiddletexture = false;
 		custombrightness = 196;
-		viewscale = 2.090605f;
+		viewscale = 1.608157f;
 		
-		fieldtypes
+		reloadresourceprecommand
 		{
-			
-			linedef
-			{
-				alpha = 1;
-				renderstyle = 2;
-				arg0str = 2;
-			}
-			
-			sidedef
-			{
-				offsetx_mid = 1;
-				offsety_mid = 1;
-				offsetx_top = 1;
-				offsetx_bottom = 1;
-				offsety_bottom = 1;
-				offsety_top = 1;
-			}
-			
-			sector
-			{
-				xpanningfloor = 1;
-				ypanningfloor = 1;
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				rotationceiling = 1;
-				xscaleceiling = 1;
-				yscaleceiling = 1;
-				rotationfloor = 1;
-				xscalefloor = 1;
-				yscalefloor = 1;
-			}
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 		
 		scriptdocuments
@@ -120,8 +113,8 @@ maps
 				resource;
 				tabtype = 0;
 				scripttype = 1;
-				caretposition = 319;
-				firstvisibleline = 27;
+				caretposition = 709;
+				firstvisibleline = 12;
 				activetab = true;
 			}
 		}

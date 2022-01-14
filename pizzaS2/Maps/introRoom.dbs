@@ -47,9 +47,9 @@ maps
 		overridebrightness = false;
 		uselongtexturenames = false;
 		useresourcesinreadonlymode = false;
-		viewpositionx = -1129.651f;
-		viewpositiony = 685.4537f;
-		viewscale = 0.683404f;
+		viewpositionx = 146.783f;
+		viewpositiony = 569.9224f;
+		viewscale = 0.8884251f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -60,45 +60,38 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 8f;
-			gridrotate = 0f;
-			gridoriginx = 0f;
-			gridoriginy = 0f;
+			gridsize = 8;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
 		}
 		
-		fieldtypes
+		reloadresourceprecommand
 		{
-			
-			linedef
-			{
-				renderstyle = 2;
-				alpha = 1;
-				arg0str = 2;
-			}
-			
-			sidedef
-			{
-				offsetx_mid = 1;
-				offsety_mid = 1;
-				offsetx_top = 1;
-				offsetx_bottom = 1;
-				offsety_bottom = 1;
-				offsety_top = 1;
-			}
-			
-			sector
-			{
-				xpanningfloor = 1;
-				ypanningfloor = 1;
-				xpanningceiling = 1;
-				ypanningceiling = 1;
-				rotationceiling = 17;
-				xscaleceiling = 1;
-				yscaleceiling = 1;
-				rotationfloor = 17;
-				xscalefloor = 1;
-				yscalefloor = 1;
-			}
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
 		}
 		
 		scriptdocuments
