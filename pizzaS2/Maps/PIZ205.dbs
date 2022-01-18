@@ -1,0 +1,237 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_DoomUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP02
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\doom wads\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\pizzaSteve2\\pizzaS2";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "PSLIF029";
+		defaultceiltexture = "PSLIF029";
+		defaulttoptexture = "PSOTW125";
+		defaultwalltexture = "PSOTW125";
+		defaultbottomtexture = "PSOTW125";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = 195.9723f;
+		viewpositiony = 1091.985f;
+		viewscale = 0.1840605f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 8;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 332;
+				firstvisibleline = 6;
+				activetab = true;
+			}
+		}
+	}
+	
+	MAP05
+	{
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 0;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\doom wads\\DOOM2.WAD";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+			
+			resource1
+			{
+				type = 1;
+				location = "C:\\Users\\Familia Sanchez\\Documents\\fernando\\doom\\pizzaSteve2\\pizzaS2";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		defaultfloortexture = "PSLIF029";
+		defaultceiltexture = "PSLIF029";
+		defaulttoptexture = "PSOTW125";
+		defaultwalltexture = "PSOTW125";
+		defaultbottomtexture = "PSOTW125";
+		custombrightness = 196;
+		customfloorheight = 0;
+		customceilheight = 128;
+		overridefloortexture = false;
+		overrideceiltexture = false;
+		overridetoptexture = false;
+		overridemiddletexture = false;
+		overridebottomtexture = false;
+		overridefloorheight = false;
+		overrideceilheight = false;
+		overridebrightness = false;
+		uselongtexturenames = false;
+		useresourcesinreadonlymode = false;
+		viewpositionx = -592.5524f;
+		viewpositiony = 4834.775f;
+		viewscale = 0.2329796f;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		grid
+		{
+			background = "";
+			backsource = 0;
+			backoffsetx = 0;
+			backoffsety = 0;
+			backscalex = 100;
+			backscaley = 100;
+			gridsize = 8;
+			gridrotate = 0;
+			gridoriginx = 0;
+			gridoriginy = 0;
+		}
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				caretposition = 771;
+				firstvisibleline = 13;
+				activetab = true;
+			}
+		}
+	}
+}
