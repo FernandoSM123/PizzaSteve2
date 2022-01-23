@@ -10,7 +10,7 @@ map PIZ201 "Research Lab"{
 
 map PIZ202 "Dark Outpost"{
     	music = "D_E1M5"
-	sky1 = "GreenClouds"
+	sky1 = "GREENCLOUDS"
 	next = "PIZ203"
 	}
 
@@ -22,5 +22,11 @@ map PIZ203 "Excavation Site"{
 map PIZ204 "Nuclear Plant"{
     	music = "D_E1M3"
 	sky1 = "Miramar"
-	next = "MAP05"
+	next = "PIZ205"
+	}
+
+map PIZ205 "Demons & Tech"{
+    	music = "d_shawn"
+	sky1 = "BLUECLOUDS"
+	next = "PIZ201"
 	}

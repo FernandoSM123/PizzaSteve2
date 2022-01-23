@@ -8,3 +8,4 @@ Sequel of the slaughter wad Pizza Steve
 2. PIZ202 - "Dark Outpost"
 3. PIZ203 - "Excavation Site"
 4. PIZ204 - "Nuclear Plant"
+5. PIZ205 - "Demons & Tech"
