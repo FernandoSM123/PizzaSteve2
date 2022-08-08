@@ -35,7 +35,7 @@ maps
 			}
 		}
 		overrideceiltexture = false;
-		viewpositionx = -230.3859f;
+		viewpositionx = -708.0085f;
 		defaulttoptexture = "PSOTW125";
 		overrideceilheight = false;
 		useresourcesinreadonlymode = false;
@@ -59,7 +59,7 @@ maps
 		overridebottomtexture = false;
 		defaultbottomtexture = "PSOTW125";
 		defaultfloortexture = "PSLIF029";
-		viewpositiony = 687.7582f;
+		viewpositiony = 6059.698f;
 		defaultwalltexture = "PSOTW125";
 		customceilheight = 128;
 		overridemiddletexture = false;
